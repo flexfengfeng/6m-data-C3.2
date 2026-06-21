@@ -1,6 +1,6 @@
 # HDB Resale Price Predictor — L06 (Better & Trustworthy Models)
 
-A teaching project that upgrades a simple 3-feature HDB price model into a more
+A coaching project that upgrades a simple 3-feature HDB price model into a more
 accurate, honestly-evaluated one — and deploys it as a Streamlit web app.
 
 Built as a 2-hour coaching add-on for **Module 3 · Machine Learning & GenAI**,
@@ -47,19 +47,6 @@ notebooks/L06_practice.ipynb  Self-runnable hands-on notebook (incl. model stack
 > The trained model file (`house_model.pkl`) is intentionally **not** committed
 > (see `.gitignore`) — the app regenerates it, so deployments always train fresh
 > against the latest data.
-
-## 📤 Push this to GitHub
-This folder is already a git repository with an initial commit. To publish it:
-
-```bash
-# 1. Create an EMPTY repo on github.com (no README/license), copy its URL.
-# 2. In this folder:
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git branch -M main
-git push -u origin main
-```
-
-(If you prefer the GitHub CLI: `gh repo create <repo-name> --public --source=. --push`.)
 
 ## 📚 Learning concepts covered
 MAE · train/test split · feature engineering · model selection · overfitting · model stacking.
